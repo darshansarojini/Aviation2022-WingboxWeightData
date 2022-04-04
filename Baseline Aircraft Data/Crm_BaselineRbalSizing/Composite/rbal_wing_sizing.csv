@@ -1,0 +1,2 @@
+,MaximumFuelWeight,MaximumTakeoffWeight,CruiseFuelWeight,NMeshElements,NMeshNodes,NumberPanels_UpperSkin,NumberPanels_LowerSkin,NumberPanels_FrontSpar,NumberPanels_RearSpar,NumberPanels_Rib,Weight_Wingbox_Rbal_lbm,Weight_Wing_Rbal_lbm,Weight_Wing_Rbal_kg,Weight_WingboxSkin_Rbal_lbm,Weight_WingboxSpar_Rbal_lbm,Weight_WingboxRib_Rbal_lbm
+0,110231.13,655875.23,88184.90400000001,36176,29161,50,50,43,43,44,18633.05947995186,46582.648699879646,21129.51678907581,14242.759771823883,1635.9207227826118,2754.3789853453636
