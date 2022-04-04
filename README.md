@@ -25,4 +25,20 @@ Geometry in the form of [OpenVSP](http://openvsp.org/) files representing the Ou
 
 Aerodynamic models are provided as Athena Vortex Lattice (AVL) files for the three concepts. [AVL](https://web.mit.edu/drela/Public/web/avl/) is an open-source tool that implements Vortex Lattice Method (VLM)  where the lifting surfaces are modeled as discretized vortex panels following Biot-Savart Law and Kutta-Joukwski Theorem, while the non-lifting bodies are modeled as sources/sinks or doublets to enforce the non-penetrating condition.
 The AVL models can be run by the reader to obtain the trim conditions at cruise and static maneuver conditions. 
+
 The NASTRAN bdf files can be run by the reader to obtain element deflections, rotations, stresses, and other specifics such as material layouts and structural meshes of the PEGASUS wing and the TBW wing, strut and spar.
+
+## Interactive Design Space Exploration
+The reader also has access to HTML files that summarize all the surrogate modeling and effect screening efforts for both the PEGASUS and the TBW. At the top of each of the files, the main actual by predicted plot shows how the model performs with respect to the trained data, providing some useful quantities such as the root mean squared error (RMSE), $R^2$ of the fit, and the Pvalue of the fit.
+
+In addition, the complete effect summary is given for each of the trained design variables an interactions, highlighting their contribution to the estimation in the surrogate model.
+
+Within the HTML file, more information is also provided in the general residual by predicted plot, and a second section with further information regarding the fit.
+
+Next, the actual parameter estimates are given for each of the design variables and their interactions, as well as the leverage plots of each of them, minimized to save screen space.
+
+In the final section, a complete prediction profiler is provided for each of the main design variables (user interactive), as well as the interaction profiles of each of the design variables (static). The interaction plots are all arranged in a grid that organizes all the different variables and their interactions in the horizontal and vertical axis. 
+
+With the profiler, the reader can check the impact of every design variable independently, actively changing both the response (wingbox weight) and the different single-variable trends by using dials in the file.
+
+## Surrogate Model Functions
