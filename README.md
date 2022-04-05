@@ -29,7 +29,7 @@ The AVL models can be run by the reader to obtain the trim conditions at cruise 
 The NASTRAN bdf files can be run by the reader to obtain element deflections, rotations, stresses, and other specifics such as material layouts and structural meshes of the PEGASUS wing and the TBW wing, strut and spar.
 
 ## Interactive Design Space Exploration
-The reader also has access to HTML files that summarize all the surrogate modeling and effect screening efforts for both the PEGASUS and the TBW. At the top of each of the files, the main actual by predicted plot shows how the model performs with respect to the trained data, providing some useful quantities such as the root mean squared error (RMSE), $R^2$ of the fit, and the Pvalue of the fit.
+The reader is also provided HTML files that summarize all the surrogate modeling and effect screening efforts for both the PEGASUS and the TBW. At the top of each of the files, the main actual by predicted plot shows how the model performs with respect to the trained data, providing some useful quantities such as the root mean squared error (RMSE), R^2 of the fit, and the Pvalue of the fit.
 
 In addition, the complete effect summary is given for each of the trained design variables an interactions, highlighting their contribution to the estimation in the surrogate model.
 
@@ -42,3 +42,8 @@ In the final section, a complete prediction profiler is provided for each of the
 With the profiler, the reader can check the impact of every design variable independently, actively changing both the response (wingbox weight) and the different single-variable trends by using dials in the file.
 
 ## Surrogate Model Functions
+In addition to the aforementioned files, fully usable trained python surrogate models for the PEGASUS and TBW configurations are provided. These surrogates can be used by the reader for many-query applications such as uncertainty quantification, or to aid as a weight etimation model in an integrated design environment.
+
+The provided file structure is as follows:
+- Surrogate function. The inputs and the bounds where the surrogate is valid are specified in Tables~\ref{tab:pegasus_dse_dvs} and~\ref{tab:tbw_dse_dvs} for the PEGASUS and TBW concepts respectively.
+- Main running block, where sample inputs and execution are provided.
