@@ -29,7 +29,7 @@ The AVL models can be run by the reader to obtain the trim conditions at cruise 
 The NASTRAN bdf files can be run by the reader to obtain element deflections, rotations, stresses, and other specifics such as material layouts and structural meshes of the PEGASUS wing and the TBW wing, strut and spar.
 
 ## Interactive Design Space Exploration
-The reader is also provided HTML files that summarize all the surrogate modeling and effect screening efforts for both the PEGASUS and the TBW. At the top of each of the files, the main actual by predicted plot shows how the model performs with respect to the trained data, providing some useful quantities such as the root mean squared error (RMSE), R^2 of the fit, and the Pvalue of the fit.
+The reader is also provided HTML files that summarize all the surrogate modeling and effect screening efforts for both the PEGASUS and the [TBW](Interactive Design Space Exploration/TBW.htm). At the top of each of the files, the main actual by predicted plot shows how the model performs with respect to the trained data, providing some useful quantities such as the root mean squared error (RMSE), R^2 of the fit, and the Pvalue of the fit.
 
 In addition, the complete effect summary is given for each of the trained design variables an interactions, highlighting their contribution to the estimation in the surrogate model.
 
