@@ -26,10 +26,10 @@ Geometry in the form of [OpenVSP](http://openvsp.org/) files representing the Ou
 Aerodynamic models are provided as Athena Vortex Lattice (AVL) files for the three concepts. [AVL](https://web.mit.edu/drela/Public/web/avl/) is an open-source tool that implements Vortex Lattice Method (VLM)  where the lifting surfaces are modeled as discretized vortex panels following Biot-Savart Law and Kutta-Joukwski Theorem, while the non-lifting bodies are modeled as sources/sinks or doublets to enforce the non-penetrating condition.
 The AVL models can be run by the reader to obtain the trim conditions at cruise and static maneuver conditions. 
 
-The NASTRAN bdf files can be run by the reader to obtain element deflections, rotations, stresses, and other specifics such as material layouts and structural meshes of the PEGASUS wing and the TBW wing, strut and spar.
+The NASTRAN .bdf files provides the structural mesh, connected masses, and external loads applied on the structure. They can be run by the reader to obtain element deflections, rotations, stresses.
 
 ## Interactive Design Space Exploration
-The reader is also provided HTML files that summarize all the surrogate modeling and effect screening efforts for both the PEGASUS and the [TBW](Interactive Design Space Exploration/TBW.htm). At the top of each of the files, the main actual by predicted plot shows how the model performs with respect to the trained data, providing some useful quantities such as the root mean squared error (RMSE), R^2 of the fit, and the Pvalue of the fit.
+The reader is also provided HTML files that summarize all the surrogate modeling and effect screening efforts for both the PEGASUS (Interactive Design Space Exploration/PEGASUS.htm) and the TBW (Interactive Design Space Exploration/TBW.htm). At the top of each of the files, the main actual by predicted plot shows how the model performs with respect to the trained data, providing some useful quantities such as the root mean squared error (RMSE), R^2 of the fit, and the Pvalue of the fit.
 
 In addition, the complete effect summary is given for each of the trained design variables an interactions, highlighting their contribution to the estimation in the surrogate model.
 
