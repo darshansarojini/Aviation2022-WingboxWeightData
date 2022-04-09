@@ -1,0 +1,446 @@
+_
+
+#Mach
+ 0
+
+#iYsym          iZsym          Zsym
+ 0              0              0
+
+#Sref           Cref           Bref
+ 75218.249      76.517773      959.96445
+
+#Xref           Yref           Zref
+ 0              0              0
+
+#===============================================================================
+SURFACE
+Wing
+#Nchord         Cspace
+ 14             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 343.98655      0              59.536134      101.29961      -0             16             0.5
+
+AFILE
+pegasus-Wing-section-0.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 343.98655      188.18033      59.536134      99.883927      -0             13             0.5
+
+AFILE
+pegasus-Wing-section-1.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 358.38704      336.23358      67.022554      77.319376      -0             12             0.5
+
+AFILE
+pegasus-Wing-section-2.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.75           0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 371.43671      470.39898      73.806724      56.87145       -0             1              0.5
+
+AFILE
+pegasus-Wing-section-3.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.7            0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 372.36883      479.98222      74.291307      55.410884      -0
+
+AFILE
+pegasus-Wing-section-4.txt
+
+#===============================================================================
+SURFACE
+Wing_1
+#Nchord         Cspace
+ 13             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 372.36883      -479.98222     74.291307      55.410884      -0             1              0.5
+
+AFILE
+pegasus-Wing_1-section-4.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 371.43671      -470.39898     73.806724      56.87145       -0             12             0.5
+
+AFILE
+pegasus-Wing_1-section-3.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.7            0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 358.38704      -336.23358     67.022554      77.319376      -0             13             0.5
+
+AFILE
+pegasus-Wing_1-section-2.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.75           0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 343.98655      -188.18033     59.536134      99.883927      -0             16             0.5
+
+AFILE
+pegasus-Wing_1-section-1.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 343.98655      0              59.536134      101.29961      -0
+
+AFILE
+pegasus-Wing_1-section-0.txt
+
+#===============================================================================
+SURFACE
+HT
+#Nchord         Cspace
+ 11             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 807.04538      0              186.96         78.100157      -0             2              0.5
+
+AFILE
+pegasus-HT-section-0.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              4.1381386e-16  0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 809.31007      14.169601      186.96         75.062929      -0             17             0.5
+
+AFILE
+pegasus-HT-section-1.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              0              0              0              0              1
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Elevator       1              0.72           0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 828.55996      134.61121      186.96         49.246488      -0             2              0.5
+
+AFILE
+pegasus-HT-section-2.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              0              0              0              0              1
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Elevator       1              0.7            0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 829.69231      141.69601      186.96         47.727874      -0
+
+AFILE
+pegasus-HT-section-3.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              1.6191098e-15  0              0              0              1
+
+#===============================================================================
+SURFACE
+HT_1
+#Nchord         Cspace
+ 11             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 829.69231      -141.69601     186.96         47.727874      -0             2              0.5
+
+AFILE
+pegasus-HT_1-section-3.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              1.6191098e-15  0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 828.55996      -134.61121     186.96         49.246488      -0             17             0.5
+
+AFILE
+pegasus-HT_1-section-2.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Elevator       1              0.7            0              0              0              1
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              0              0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 809.31007      -14.169601     186.96         75.062929      -0             2              0.5
+
+AFILE
+pegasus-HT_1-section-1.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Elevator       1              0.72           0              0              0              1
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              0              0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 807.04538      0              186.96         78.100157      -0
+
+AFILE
+pegasus-HT_1-section-0.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              4.1381386e-16  0              0              0              1
+
+#===============================================================================
+SURFACE
+VT
+#Nchord         Cspace
+ 5              1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 367.1395       0              23.152941      480.9978       -0             2              0.5
+
+AFILE
+pegasus-VT-section-0.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 526.9833       1.7918869e-15  52.416676      327.4589       -0             1              0.5
+
+AFILE
+pegasus-VT-section-1.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 580.61501      2.3931111e-15  62.235412      275.94265      -0             1              0.5
+
+AFILE
+pegasus-VT-section-2.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Rudder         1              0.72           0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 694.46574      3.6694047e-15  83.078868      166.58268      -0             3              0.5
+
+AFILE
+pegasus-VT-section-3.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Rudder         1              0.59273922     0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 778.26584      7.55221e-15    146.48989      104.58195      -0             3              0.5
+
+AFILE
+pegasus-VT-section-4.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Rudder         1              0.54755223     0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 818.20235      1.1243858e-14  206.77907      82.239969      -0             1              0.5
+
+AFILE
+pegasus-VT-section-5.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Rudder         1              0.7            0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 825.04832      1.1876684e-14  217.11392      78.410079      -0
+
+AFILE
+pegasus-VT-section-6.txt
+
+#===============================================================================
+SURFACE
+Fuselage_H
+#Nchord         Cspace
+ 40             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 117.20967      -54.4908       1.9124737      481.68026      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 53.772301      -40.95         1.9124737      664.47834      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 24.983697      -27.3          1.9124737      765.46858      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 7.1168332      -13.65         1.9124737      846.23501      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ -5.6843419e-14 0              1.9124737      907.37707      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 7.1168332      13.65          1.9124737      846.23501      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 24.983697      27.3           1.9124737      765.46858      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 53.772301      40.95          1.9124737      664.47834      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 117.20967      54.4908        1.9124737      481.68026      0
+
+#===============================================================================
+SURFACE
+Fuselage_V
+#Nchord         Cspace
+ 40             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 114.39639      0              -49.773115     27.687894      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 24.533621      0              -37.090827     626.77635      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 3.6020997      0              -24.306263     709.08327      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 0.81301132     0              -11.521698     770.58224      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 14.610887      0              1.2628661      814.12757      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 42.433268      0              14.047431      840.43776      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 58.823613      0              26.831995      844.58602      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 73.568928      0              39.61656       736.78845      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 115.95703      0              52.298848      485.83341      0

@@ -1,0 +1,746 @@
+_
+
+#Mach
+ 0
+
+#iYsym          iZsym          Zsym
+ 0              0              0
+
+#Sref           Cref           Bref
+ 616142.99      223.80256      2309.2678
+
+#Xref           Yref           Zref
+ 0              0              0
+
+#===============================================================================
+SURFACE
+Wing
+#Nchord         Cspace
+ 13             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 992.59951      119.68707      178.6714       465.51343      4.391031       2              0.5
+
+AFILE
+crm-Wing-section-2.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1033.5277      173.9906       179.71544      433.88945      3.6065865      3              0.5
+
+AFILE
+crm-Wing-section-3.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1077.2372      231.99265      180.24394      400.11153      3.0131         2              0.5
+
+AFILE
+crm-Wing-section-4.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1120.9459      289.99347      180.7965       366.33361      2.2419         3              0.5
+
+AFILE
+crm-Wing-section-5.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1164.6554      347.9897       181.77316      332.55568      1.5252         3              0.5
+
+AFILE
+crm-Wing-section-6.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1208.3649      405.97536      183.24992      298.77676      0.9379         1              0.5
+
+AFILE
+crm-Wing-section-7.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1225.8486      429.16596      183.96364      285.26619      0.7635         2              0.5
+
+AFILE
+crm-Wing-section-8.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1252.2646      463.94641      185.18439      276.78752      0.4285         3              0.5
+
+AFILE
+crm-Wing-section-9.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1296.2924      521.89167      187.80424      262.65508      -0.2621        3              0.5
+
+AFILE
+crm-Wing-section-10.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1340.3202      579.79112      191.29294      248.52363      -0.67848648    3              0.5
+
+AFILE
+crm-Wing-section-11.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1384.348       637.63243      195.64027      234.39218      -0.9436        3              0.5
+
+AFILE
+crm-Wing-section-12.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1428.3757      695.42536      200.58941      220.25973      -1.2067        3              0.5
+
+AFILE
+crm-Wing-section-13.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1472.4035      753.15935      206.18433      206.12829      -1.4526        3              0.5
+
+AFILE
+crm-Wing-section-14.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1516.4313      810.80093      212.66236      191.99684      -1.635         1              0.5
+
+AFILE
+crm-Wing-section-15.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1521.0318      816.81425      213.42029      190.52005      -1.6526369     2              0.5
+
+AFILE
+crm-Wing-section-16.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.75           0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1560.4591      868.35006      219.91595      177.86439      -1.8158        3              0.5
+
+AFILE
+crm-Wing-section-17.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.74402986     0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1604.4869      925.79336      227.96479      163.73294      -2.0301        3              0.5
+
+AFILE
+crm-Wing-section-18.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.73607215     0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1648.5146      983.12394      236.78076      149.6015       -2.2774865     3              0.5
+
+AFILE
+crm-Wing-section-19.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.72642273     0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1692.5424      1040.353       246.23319      135.46905      -2.5773        3              0.5
+
+AFILE
+crm-Wing-section-20.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.71457116     0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1736.5702      1097.5001      256.16924      121.3376       -3.1250865     3              0.5
+
+AFILE
+crm-Wing-section-21.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.7            0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 1780.598       1154.6339      266.18182      107.20615      -3.7502865
+
+AFILE
+crm-Wing-section-22.txt
+
+#===============================================================================
+SURFACE
+Wing_1
+#Nchord         Cspace
+ 13             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1780.598       -1154.6339     266.18182      107.20615      -3.7502865     2              0.5
+
+AFILE
+crm-Wing_1-section-23.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1741.6709      -1104.1193     257.32923      119.69977      -3.1899566     1              0.5
+
+AFILE
+crm-Wing_1-section-22.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.7            0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1736.5702      -1097.5001     256.16924      121.3376       -3.1250865     3              0.5
+
+AFILE
+crm-Wing_1-section-21.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.70200618     0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1692.5424      -1040.353      246.23319      135.46905      -2.5773        3              0.5
+
+AFILE
+crm-Wing_1-section-20.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.71714768     0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1648.5146      -983.12394     236.78076      149.6015       -2.2774865     3              0.5
+
+AFILE
+crm-Wing_1-section-19.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.72947111     0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1604.4869      -925.79336     227.96479      163.73294      -2.0301        3              0.5
+
+AFILE
+crm-Wing_1-section-18.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.73950815     0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1560.4591      -868.35006     219.91595      177.86439      -1.8158        1              0.5
+
+AFILE
+crm-Wing_1-section-17.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.74778094     0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1547.0132      -850.77488     217.70075      182.18016      -1.7576095     2              0.5
+
+AFILE
+crm-Wing_1-section-16.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Aileron        1              0.75           0              0              0              -1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1516.4313      -810.80093     212.66236      191.99684      -1.635         3              0.5
+
+AFILE
+crm-Wing_1-section-15.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1472.4035      -753.15935     206.18433      206.12829      -1.4526        3              0.5
+
+AFILE
+crm-Wing_1-section-14.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1428.3757      -695.42536     200.58941      220.25973      -1.2067        3              0.5
+
+AFILE
+crm-Wing_1-section-13.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1384.348       -637.63243     195.64027      234.39218      -0.9436        3              0.5
+
+AFILE
+crm-Wing_1-section-12.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1340.3202      -579.79112     191.29294      248.52363      -0.67848648    3              0.5
+
+AFILE
+crm-Wing_1-section-11.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1296.2924      -521.89167     187.80424      262.65508      -0.2621        3              0.5
+
+AFILE
+crm-Wing_1-section-10.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1252.2646      -463.94641     185.18439      276.78752      0.4285         2              0.5
+
+AFILE
+crm-Wing_1-section-9.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1225.8486      -429.16596     183.96364      285.26619      0.7635         1              0.5
+
+AFILE
+crm-Wing_1-section-8.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1208.3649      -405.97536     183.24992      298.77676      0.9379         3              0.5
+
+AFILE
+crm-Wing_1-section-7.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1164.6554      -347.9897      181.77316      332.55568      1.5252         3              0.5
+
+AFILE
+crm-Wing_1-section-6.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1120.9459      -289.99347     180.7965       366.33361      2.2419         2              0.5
+
+AFILE
+crm-Wing_1-section-5.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1077.2372      -231.99265     180.24394      400.11153      3.0131         3              0.5
+
+AFILE
+crm-Wing_1-section-4.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 1033.5277      -173.9906      179.71544      433.88945      3.6065865      2              0.5
+
+AFILE
+crm-Wing_1-section-3.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 992.59951      -119.68707     178.6714       465.51343      4.391031
+
+AFILE
+crm-Wing_1-section-2.txt
+
+#===============================================================================
+SURFACE
+Htail
+#Nchord         Cspace
+ 11             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2242.1125      0              258.40452      225.90042      -0             4              0.5
+
+AFILE
+crm-Htail-section-0.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2242.1125      71.899725      258.40452      225.90042      -2             1              0.5
+
+AFILE
+crm-Htail-section-1.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2242.1125      74.174096      258.40452      225.90042      -1.9927536     2              0.5
+
+AFILE
+crm-Htail-section-2.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              0              0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2271.5281      108.71184      263.20944      212.24021      -1.8751635     15             0.5
+
+AFILE
+crm-Htail-section-3.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              1.3552715e-15  0              0              0              1
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Elevator       1              0.7            0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2530.3857      412.64396      305.49279      92.124905      0.66309131     1              0.5
+
+AFILE
+crm-Htail-section-4.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              1.5690045e-15  0              0              0              1
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Elevator       1              0.7            0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 2536.2688      419.55151      306.45378      89.4           0.8
+
+AFILE
+crm-Htail-section-5.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              0              0              0              0              1
+
+#===============================================================================
+SURFACE
+Htail_1
+#Nchord         Cspace
+ 11             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2536.2688      -419.55151     306.45378      89.4           0.8            1              0.5
+
+AFILE
+crm-Htail_1-section-5.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              0              0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2530.3857      -412.64396     305.49279      92.124905      0.66309131     15             0.5
+
+AFILE
+crm-Htail_1-section-4.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Elevator       1              0.7            0              0              0              1
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              0              0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2271.5281      -108.71184     263.20944      212.24021      -1.8751635     2              0.5
+
+AFILE
+crm-Htail_1-section-3.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Elevator       1              0.7            0              0              0              1
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              0              0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2242.1125      -74.174096     258.40452      225.90042      -1.9927536     1              0.5
+
+AFILE
+crm-Htail_1-section-2.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ HT_Stab        1              0              0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2242.1125      -71.899725     258.40452      225.90042      -2             4              0.5
+
+AFILE
+crm-Htail_1-section-1.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 2242.1125      0              258.40452      225.90042      -0
+
+AFILE
+crm-Htail_1-section-0.txt
+
+#===============================================================================
+SURFACE
+Vtail
+#Nchord         Cspace
+ 5              1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2165.7932      2.1741232e-15  335.50613      288.14241      -0             1              0.5
+
+AFILE
+crm-Vtail-section-1.txt
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2194.2076      4.2476336e-15  369.36912      270.28942      -0             7              0.5
+
+AFILE
+crm-Vtail-section-2.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Rudder         1              0.7            0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 2444.2546      2.2494526e-14  667.36348      113.18313      -0             1              0.5
+
+AFILE
+crm-Vtail-section-3.txt
+
+CONTROL
+#name           gain           Xhinge         Xhvec          Yhvec          Zhvec          SgnDup
+ Rudder         1              0.7            0              0              0              1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 2449.9374      2.2909228e-14  674.13608      109.61253      -0
+
+AFILE
+crm-Vtail-section-4.txt
+
+#===============================================================================
+SURFACE
+Fuselage_H
+#Nchord         Cspace
+ 40             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 476.49887      -119.68707     178.6714       1384.8332      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 272.03433      -92.25         178.6714       1902.6112      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 179.08429      -61.5          178.6714       2161.5019      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 119.02945      -30.75         178.6714       2351.857       0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 92.519688      0              178.6714       2473.9056      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 119.02945      30.75          178.6714       2351.857       0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 179.08429      61.5           178.6714       2161.5019      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 272.03433      92.25          178.6714       1902.6112      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 476.49887      119.68707      178.6714       1384.8332      0
+
+#===============================================================================
+SURFACE
+Fuselage_V
+#Nchord         Cspace
+ 40             1
+
+COMPONENT
+1
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 465.58695      0              101.99683      1385.6774      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 209.07734      0              132.26456      1877.8125      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 133.1457       0              162.77637      2102.6499      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 93.86058       0              193.28819      2271.7968      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 105.64818      0              223.8          2377.241       0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 147.25184      0              254.31182      2415.8279      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 181.28673      0              284.82363      2381.793       0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc           Nspan          Sspace
+ 271.31511      0              315.33545      2138.3107      0              2              0.5
+
+#-------------------------------------------------------------------------------
+SECTION
+#Xle            Yle            Zle            Chord          Ainc
+ 476.90776      0              345.60317      1407.778       0
